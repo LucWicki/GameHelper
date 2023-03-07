@@ -28,9 +28,8 @@ body {
 .form {
     background: transparent;
     padding: 20px;
-    border-radius: 10px;
     margin: 0px;
-    width: 800px;
+    width: 100%;
     height: 70%;
     text-align: left;
     display: flex;
@@ -40,7 +39,6 @@ body {
 
 .title {
     font-style: bold;
-
     color: #ffffff;
     margin-top: 0px;
     border-width: 2px;
@@ -68,13 +66,12 @@ input[type="password"],
 input[type="email"] {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
     box-sizing: border-box;
     background-color: #ffffffd3;
     border: none;
     border-radius: 4px;
     color: #707070;
-    height: 100px;
+    height: 70px;
     font-size: 100%;
     border-radius: 25px;
 }
@@ -85,39 +82,35 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
-    width: 800px;
+    width: 100%;
     font-size: 100%;
     font-weight: bold;
     height: 70px;
     border-radius: 25px;
 }
 
-bo-container
-
-.sign-container {
-    display: flex;
+.container {
     float: left;
     width: 50%;
-    flex-direction: column;
 }
 
 .image-container {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    float: right;
+    width: 50%;
 }
-
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 75%;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 button:hover {
     background-color: #f7ddb5;
 }
-
 
 a:hover {
     color: #f7ddb5;
@@ -132,10 +125,23 @@ a:hover {
     padding: 20px;
     border-radius: 10px;
     margin: 0px;
-    width: 800px;
+    width: 100%;
     height: 20%;
 }
 
-.button-label{
+.button-label {
     align-self: center;
+}
+
+.form-container {
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+}
+
+.body-container {
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
 }
