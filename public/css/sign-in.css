@@ -1,0 +1,147 @@
+.background {
+    position: relative;
+    height: 100vh;
+}
+
+.background::before {
+    content: "";
+    background-image: url(https://i.imgur.com/eH9ErgW.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.form {
+    background: transparent;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-style: bold;
+    color: #ffffff;
+    margin-top: 0px;
+    border-width: 2px;
+    font-size: 100px;
+    border-color: #2c2c35;
+    text-align: left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    padding: 10px;
+}
+
+.label {
+    font-style: bold;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffffd3;
+    border: none;
+    border-radius: 4px;
+    color: #707070;
+    height: 70px;
+    font-size: 100%;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #2e435d;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    height: 70px;
+    border-radius: 25px;
+}
+
+.container {
+    float: left;
+    width: 50%;
+}
+
+.image-container {
+    float: right;
+    width: 50%;
+}
+img {
+    max-width: 75%;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+button:hover {
+    background-color: #f7ddb5;
+}
+
+a:hover {
+    color: #f7ddb5;
+}
+
+.sign-switch {
+    color: #2e435d;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.button-label {
+    align-self: center;
+}
+
+.form-container {
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+}
+
+.body-container {
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
+}

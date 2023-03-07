@@ -56,7 +56,7 @@ body {
     font-style: bold;
     color: #ffffff;
     margin-top: 0px;
-    font-size: 35px;
+    font-size: 25px;
     text-align: left;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
@@ -94,21 +94,24 @@ button {
     border-radius: 25px;
 }
 
-.container {
+bo-container
+
+.sign-container {
+    display: flex;
     float: left;
     width: 50%;
+    flex-direction: column;
 }
 
 .image-container {
-    float: right;
-    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
 img {
-    max-width: 75%;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: -550px;
+    max-width: 100%;
+    height: auto;
 }
 
 button:hover {
@@ -122,7 +125,7 @@ a:hover {
 
 .sign-switch {
     color: #2e435d;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -131,4 +134,8 @@ a:hover {
     margin: 0px;
     width: 800px;
     height: 20%;
+}
+
+.button-label{
+    align-self: center;
 }

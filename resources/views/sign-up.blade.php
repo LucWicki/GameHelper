@@ -3,7 +3,7 @@
 
 <head>
     <title>Sign up</title>
-    <link rel="stylesheet" href="{{ asset('css/sign-in-sign-up.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sign-up.css') }}">
 </head>
 
 <body class="background">
@@ -25,10 +25,10 @@
         <button type="button" onclick="location.href='/sign-up'">Sign up</button>
     </form>
     <div class="image-container">
-        <!-- <img src="{{ asset('images/sign-up-image.png') }}" alt="Sign up image">  -->
+        <img src="{{ asset('images/sign-up.png') }}">
     </div>
-    <div>
-        Already have an Account?
+    <div class="sign-switch">
+        <span class="button-label">Already have an Account?</span>
         <button type="button" onclick="location.href='/sign-in'">Sign in</button><br><br>
     </div>
 
