@@ -9,7 +9,7 @@
 <body class="background">
     <div class="body-container">
         <div class="form-container">
-            <form action="/" class="form" method="POST">
+            <form action="/ " class="form" method="POST">
 
                 <h1 class="title">Sign in</h1>
 
