@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id('user_id');
             $table->timestamps();
 
+
             $table->string('firstname');
             $table->string('lastname');
             $table->string('username');
