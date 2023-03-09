@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://images5.alphacoders.com/109/1099191.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000;
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #000000;
+    padding: 20px;
+    background-color: #cbd0fc;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.inner-container.left button {
+    text-align: center;
+}
+
+.inner-container.right p {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+}
