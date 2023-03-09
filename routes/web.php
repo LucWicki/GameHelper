@@ -61,6 +61,8 @@ Route::get('/profile', function () {
 }); */
 
 Route::get('/sign-in', function () {
+
+    
     return view('sign-in');
 });
 
