@@ -9,6 +9,7 @@ body {
     text-shadow: 2px 2px 5px #000000;
     color: #ffffff;
     font-size: 3em;
+    font: bold;
     margin-top: 50px;
 }
 
@@ -21,7 +22,7 @@ body {
     border-radius: 20px;
     box-shadow: 2px 2px 5px #000000;
     padding: 20px;
-    background-color: #cbd0fc;
+    background-color: #B4CBE9;
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,7 +43,7 @@ body {
 
 .inner-container.left button {
     text-align: center;
-    background-color: #d7b98e;
+    background-color: #e9c695;
     color: #fff;
     font-weight: bold;
     padding: 40px 20px;
@@ -56,12 +57,14 @@ body {
 .inner-container.right p {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px; /* add margin to create space */
+    font-size: larger;
+    margin-bottom: 10px;
 }
 
 .inner-container.right a {
-    display: block; /* set as block to appear on new line */
+    display: block;
     text-align: center;
-    font-weight: normal; /* remove bold */
+    font-weight: normal;
+    margin-top: 40px;
 }
 
