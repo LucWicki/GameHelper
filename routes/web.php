@@ -71,3 +71,7 @@ Route::get('/sign-up', function () {
 Route::get('/team', function () {
     return view('team');
 });
+
+Route::get('/header-footer', function () {
+    return view('app');
+});
