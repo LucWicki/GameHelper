@@ -29,7 +29,6 @@ body {
     align-items: center;
     justify-content: center;
     flex: 1;
-
 }
 
 .inner-container.left button {
@@ -38,6 +37,21 @@ body {
 
 .inner-container.right p {
     text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: #e6b796;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #ffffff;
     font-weight: bold;
 }
 

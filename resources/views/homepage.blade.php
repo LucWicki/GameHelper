@@ -10,7 +10,7 @@
     </div>
     <div class="container">
         <div class="inner-container left">
-            <button>Button 1</button>
+            <button><a href="/profile">Shwocase Account</a></button>
         </div>
         <div class="inner-container right">
             <p>Description 1</p>
