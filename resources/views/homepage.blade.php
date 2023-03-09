@@ -10,26 +10,35 @@
     </div>
     <div class="container">
         <div class="inner-container left">
-            <button><a href="/profile">Shwocase Account</a></button>
+            <button onclick="window.location.href='/profile'">Showcase Account</button>
         </div>
         <div class="inner-container right">
-            <p>Description 1</p>
+            <p>Display pictures of your Genshin Account in a Post on your Profile</p>
         </div>
     </div>
     <div class="container">
         <div class="inner-container left">
-            <button>Button 2</button>
+            <button onclick="window.location.href='/browse'">Browse Account</button>
         </div>
         <div class="inner-container right">
-            <p>Description 2</p>
+            <p>Browse Posts of Account Displays</p>
         </div>
     </div>
     <div class="container">
         <div class="inner-container left">
-            <button>Button 3</button>
+            <button onclick="window.location.href='/create-commission'">Post Commission</button>
         </div>
         <div class="inner-container right">
-            <p>Description 3</p>
+            <p>Post a Commission just like at the Adventurers Guild for others to help</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner-container left">
+            <button onclick="window.location.href='/browse'">Browse Commission</button>
+        </div>
+        <div class="inner-container right">
+            <p>Browse help requests <a href="#">how?</a></p>
+
         </div>
     </div>
 </body>

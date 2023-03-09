@@ -18,10 +18,18 @@ body {
     margin: auto;
     margin-top: 50px;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px #000000;
     padding: 20px;
     background-color: #cbd0fc;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
 }
 
 .inner-container {
@@ -29,35 +37,31 @@ body {
     align-items: center;
     justify-content: center;
     flex: 1;
+    width: 50%;
 }
 
 .inner-container.left button {
     text-align: center;
+    background-color: #d7b98e;
+    color: #fff;
+    font-weight: bold;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #fff;
+    width: 100%;
+    font-size: 1.2em;
 }
 
 .inner-container.right p {
     text-align: center;
     font-weight: bold;
+    margin-bottom: 10px; /* add margin to create space */
 }
 
-button {
-    background-color: #e6b796;
+.inner-container.right a {
+    display: block; /* set as block to appear on new line */
     text-align: center;
-    padding: 10px 30px;
-    margin: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    font-weight: normal; /* remove bold */
 }
 
-a {
-    color: #ffffff;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-        margin: 0;
-    }
-}
