@@ -5,11 +5,11 @@ ul {
     overflow: hidden;
     background-color: #1493dd;
     align-content: space-evenly;
+    justify-content: center;
 }
 
 li {
     float: left;
-
 }
 
 li a {
@@ -31,17 +31,24 @@ img {
     width: 30px;
 }
 
+div.footer-container {
+    display: inline-flex;
+    width: 100%;
+}
+
 footer {
-    height: 230;
-    font-size: 20px;
+    height: 150px;
     color: #2E435D;
     background-color:   #ddebf9c5;
     display: flex;
-    align-content: space-evenly;
-    flex-direction: row;
+    opacity: 0.6;
 }
 
-.footer-item{
-    padding: 10px;
-    size: auto;
+div.footer-item{
+    padding: 10px 20px 10px 10px;
+    width: auto;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
 }
