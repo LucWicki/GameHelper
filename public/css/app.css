@@ -39,9 +39,9 @@ div.footer-container {
 footer {
     height: 150px;
     color: #2E435D;
-    background-color:   #ddebf9c5;
+    background-color: rgba(221, 235, 249, 0.7);
     display: flex;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
 }
 
 div.footer-item{
